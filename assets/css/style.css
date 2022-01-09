@@ -35,6 +35,14 @@ body{
     content: url(../imgs/icons/menu.svg);
 }
 
+.menu__abrir:hover{
+    cursor: pointer;
+}
+
+.link__logo{
+    text-decoration: none;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -58,7 +66,6 @@ body{
     background-color: var(--roxo);
     width: 75vw;
     height: 100vh;
-    
     position: absolute;
     left: -100vw;
     transition: .25s;
@@ -82,4 +89,41 @@ body{
 .menu__opcoes{
     display: flex;
     align-items: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 187px;
+    height: 350px;
+}
+
+.paragrafo-um{
+    border-right: 0.125rem solid;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.paragrafo-dois{
+    margin-top: 1rem;
+    border-right: 0.125rem solid;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.logo_body{
+    width: 50%;
+}
+
+.copyright{
+    height: 3.75rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--roxo);
 }

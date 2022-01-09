@@ -1,0 +1,82 @@
+/*Animação do logo*/
+
+.logo_body {
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: logo_body;
+    animation-name: logo_body;
+  }
+  
+  @-webkit-keyframes logo_body {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes logo_body {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+
+/*Animação do primeiro paragrafo*/
+
+.typing-animation{
+  display: flex;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(240, 236, 233);
+  animation: blinkCursor 600ms steps(40) infinite normal, 
+  typing 7000ms steps(100) normal 1 both;
+  white-space: nowrap;
+  max-width: 0vw; 
+  overflow: hidden;
+}
+
+@keyframes typing {
+  100% {
+    max-width: 100vw;
+  }
+}
+
+@keyframes blinkCursor {
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+/*Animação do segundo paragrafo*/
+
+.typing-animation-dois{
+  display: flex;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(240, 236, 233);
+  animation: blinkCursor 1000ms steps(40) infinite normal, 
+  typing 10000ms steps(100) 5s normal 1 both;
+  white-space: nowrap;
+  max-width: 0vw; 
+  overflow: hidden;
+}
+
+@keyframes typing {
+  100% {
+    max-width: 100vw;
+  }
+}
+
+@keyframes blinkCursor {
+  100% {
+    border-right-color: transparent;
+  }
+}
