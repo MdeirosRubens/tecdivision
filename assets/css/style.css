@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@300;400&display=swap');
+@import url(variaveis.css);
+
+*{
+    color: var(--branco);
+}
+
+body{
+    font-family: var(--familia-font);
+    background-color: var(--preto);
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: var(--roxo);
+}
+
+.cabecalho__logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--roxo);
+    padding: 10px;
+}
+
+.menu__abrir{
+    width: 2.5rem;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    border: none;
+    padding: 0%;
+    background-color: var(--roxo);
+}
+
+.menu__abrir i::before{
+    content: url(../imgs/icons/menu.svg);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: var(--roxo);
+}
+
+.titulo{
+    margin-right: 0.625rem;
+    font-size: 1.25rem;
+    background-color: var(--roxo);
+}
+
+.cabecalho__logo__imagem{
+    height: 3.125rem;
+    background-color: var(--roxo);
+}
+
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--roxo);
+    width: 75vw;
+    height: 100vh;
+    
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+    
+}
+
+.menu-lateral--ativo{
+    left: 0;
+    transition: .25s;
+}
+
+.menu-lateral a{
+    text-decoration: none;
+    background-color: var(--roxo);
+    font-size: 1.25rem;
+    letter-spacing: 0.5rem;
+    height: 4rem;
+    margin-left: 1.25rem;
+}
+
+.menu__opcoes{
+    display: flex;
+    align-items: center;
+}
