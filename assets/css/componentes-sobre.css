@@ -26,3 +26,61 @@
     text-align: left;
     padding: 1.25rem;
 }
+
+@media (min-width: 768px){
+
+    .cabecalho__logo{
+        padding: 1.563rem;
+    }
+
+    .menu__abrir{
+        height: 4.125rem;
+        width: 4.5rem;
+    }
+
+    .menu__abrir i::before{
+        width: 50px;
+    }
+
+    .titulo{
+        font-size: 2.563rem;
+    }
+
+    .cabecalho__logo__imagem {
+        height: 4.25rem;
+    }
+
+    .menu-lateral{
+        margin-top: 7rem;
+        height: 95%;
+    }
+
+    .menu-lateral a{
+        font-size: 2.563rem;
+    }
+
+    .sobre__imagens__icones{
+        width: 8rem;
+    }
+
+    .sobre__titulo{
+        font-size: 3.25rem;
+    } 
+
+    .sobre__paragrafo{
+        font-size: 2.25rem;
+    }
+
+
+    footer{
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 7.375rem ;
+        font-size: 2rem;
+    }
+
+    .copyright{
+        height: 100%;
+    }
+}

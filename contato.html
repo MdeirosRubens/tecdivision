@@ -30,17 +30,30 @@
     </nav>
     <section class="formulario">
         <form action="" class="fomulario__campos">
-            <label for="nomeCompleto" class="formulario__label">Nome Completo</label>
-            <input type="text" class="input__padrao" placeholder="Nome Completo" required>
-            <label for="nomeEmpresa" class="formulario__label">Nome da Empresa</label>
-            <input type="text" class="input__padrao" placeholder="Nome da Empresa">
-            <label for="email" class="formulario__label">Email</label>
-            <input type="email" class="input__padrao" placeholder="Email" required>
-            <label for="telefone" class="formulario__label">Telefone</label>
-            <input type="tel" class="input__padrao" placeholder="Telefone de contato" required>
-            <label for="mensagem" class="formulario__label">Deixe uma mensagem</label>
-            <input type="text" class="input__padrao input__mensagem" placeholder="Deixe uma mensagem" required>
-            <button class="formulario__botao" aria-label="Botão para enviar formulário">Enviar</button>
+            <div class="formulario__title">
+                <h2 class="formulario__title_titulo">Entre em contato</h2>
+            </div>
+            <div class="formulario__coluna__um">
+                <label for="nomeCompleto" class="formulario__label">Nome Completo</label>
+                <input type="text" class="input__padrao" placeholder="Nome Completo" required>
+            </div>
+            <div class="formulario__coluna__dois">
+                <label for="nomeEmpresa" class="formulario__label">Empresa</label>
+                <input type="text" class="input__padrao" placeholder="Nome da Empresa">
+            </div>
+            <div class="formulario__coluna__um">
+                <label for="email" class="formulario__label">Email</label>
+                <input type="email" class="input__padrao" placeholder="Email" required>
+            </div>
+            <div class="formulario__coluna__dois">
+                <label for="telefone" class="formulario__label">Telefone</label>
+                <input type="tel" class="input__padrao" placeholder="Telefone de contato" required>
+            </div>
+            <div class="formulario__coluna__mensagem">
+                <label for="mensagem" class="formulario__label">Deixe uma mensagem</label>
+                <input type="text" class="input__padrao input__mensagem" placeholder="Deixe uma mensagem" required>
+                <button class="formulario__botao" aria-label="Botão para enviar formulário">Enviar</button>
+            </div>
         </form>
     </section>
     <footer>

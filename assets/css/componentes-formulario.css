@@ -3,7 +3,15 @@
 .fomulario__campos{
     display: flex;
     flex-direction: column;
-    
+}
+
+.formulario__title{
+    text-align: center;
+    margin: 0.938rem;
+}
+
+.formulario__title_titulo{
+    font-size: 1.875rem;
 }
 
 .formulario__label{
@@ -14,6 +22,7 @@
 .input__padrao{
     margin: 0.625rem;
     padding: 0.625rem;
+    width: 90%;
     border-radius: 0.313rem;
     border: none;
     font-size: 0.938rem;
@@ -21,32 +30,121 @@
 }
 
 .input__mensagem{
-    height: 100px;
+    height: 6.25rem;
     font-size: 1.563rem;
 }
 
 .formulario__botao{
-    margin: 15px;
-    padding: 15px 30px;
+    width: 90%;
+    margin: 0.938rem;
+    padding: 0.938rem 1.875rem;
     text-align: center;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 1.125rem;
+    letter-spacing: 0.063rem;
     text-decoration: none;
     color: #725AC1;
     background: transparent;
     cursor: pointer;
     transition: ease-out 0.5s;
-    border-radius: 30px;
-    border: 2px solid #725AC1;
-    border-radius: 10px;
+    border-radius: 1.875rem;
+    border: 0.125rem solid #725AC1;
+    border-radius: 0.625rem;
     box-shadow: inset 0 0 0 0 #725AC1;
 }
 
 .formulario__botao:hover{
     color: white;
-    box-shadow: inset 0 -100px 0 0 #725AC1;
+    box-shadow: inset 0 -6.25rem 0 0 #725AC1;
 }
 
 .formulario__botao:active{
     transform: scale(0.9);
+}
+
+@media (min-width: 768px){
+
+    .cabecalho__logo{
+        padding: 1.563rem;
+    }
+
+    .menu__abrir{
+        height: 4.125rem;
+        width: 4.5rem;
+    }
+
+    .menu__abrir i::before{
+        width: 3.125rem;
+    }
+
+    .cabecalho__logo__imagem {
+        height: 4.25rem;
+    }
+
+    .menu-lateral{
+        margin-top: 7rem;
+        height: 95%;
+    }
+
+    .menu-lateral a{
+        font-size: 2.563rem;
+    }
+
+    .fomulario__campos{
+        display: grid;
+        align-content: center;
+        align-content: stretch;
+        
+        grid-template-columns: 50%;
+        height: 80vh;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .formulario__title{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        padding: 1.25rem;
+    }
+
+    .formulario__title_titulo{
+        font-size: 3.875rem;
+    }
+
+    .formulario__coluna__dois{
+        grid-column-start: 2;
+    }
+
+    .formulario__coluna__mensagem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .formulario__label{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .input__padrao{
+        font-size: 1.563rem;
+    }
+
+    .formulario__botao{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+        height: 7.375rem ;
+        font-size: 2rem;
+    }
+
+    .copyright{
+        height: 100%;
+    }
 }
