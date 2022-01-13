@@ -83,6 +83,7 @@ body{
 }
 
 .menu-lateral a{
+    position: relative;
     text-decoration: none;
     background-color: var(--roxo);
     font-size: 1.25rem;
@@ -193,4 +194,50 @@ body{
         height: 100%;
     }
        
+}
+
+@media(min-width: 1100px){
+
+    body{
+        display: flex;
+    }
+
+    .cabecalho__logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20px;
+    }
+   
+    .menu-lateral{
+        width: 40vw;
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    .menu-lateral a{
+        margin-left: 2.5rem;
+    }
+
+    .main{
+        margin-top: 50px;
+        display: flex;
+
+    }
+
+    .apresent{
+        font-size: 50px;
+    }
+
+    .orientacao{
+        font-size: 50px;
+    }
+
+    .logo_body{
+        width: 20%;
+    }
+    footer{
+        height: 70px;
+    }
+    
 }
