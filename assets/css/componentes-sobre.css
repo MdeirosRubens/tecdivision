@@ -1,3 +1,8 @@
+.main__sobre{
+    display: flex;
+    flex-direction:column;
+}
+
 .sobre{
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +22,7 @@
     padding: 1.25rem;
 }
 .sobre__paragrafo{
-    font-size: 1.188rem;
+    font-size: 118.75%;
     text-align: left;
     padding: 1.25rem;
 }

@@ -8,6 +8,10 @@
 body{
     font-family: var(--familia-font);
     background-color: var(--preto);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cabecalho{
@@ -19,7 +23,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: var(--roxo);
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .menu__abrir{
@@ -65,7 +69,8 @@ body{
     flex-direction: column;
     background-color: var(--roxo);
     width: 75vw;
-    height: 100vh;
+    height: 90%;
+    margin-top: 3.125rem;
     position: absolute;
     left: -100vw;
     transition: .25s;
@@ -93,10 +98,10 @@ body{
 
 .main{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    margin-top: 3.125rem;
+    
 }
 
 .paragrafo-um{
@@ -124,6 +129,5 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    text-align: center;
     background-color: var(--roxo);
 }

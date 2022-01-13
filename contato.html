@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animacoes.css">
+    <link rel="stylesheet" href="assets/css/componentes-formulario.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
@@ -23,11 +24,25 @@
         </section>        
     </header>
     <nav class="menu-lateral">
+        <a href="index.html" class="menu__opcoes">Início</a>
         <a href="sobre.html" class="menu__opcoes">Sobre</a>
-        <a href="perfis.html" class="menu__opcoes">Perfis</a>
-        <a href="skills.html" class="menu__opcoes">Skills</a>
         <a href="contato.html" class="menu__opcoes">Contato</a>
     </nav>
+    <section class="formulario">
+        <form action="" class="fomulario__campos">
+            <label for="nomeCompleto" class="formulario__label">Nome Completo</label>
+            <input type="text" class="input__padrao" placeholder="Nome Completo" required>
+            <label for="nomeEmpresa" class="formulario__label">Nome da Empresa</label>
+            <input type="text" class="input__padrao" placeholder="Nome da Empresa">
+            <label for="email" class="formulario__label">Email</label>
+            <input type="email" class="input__padrao" placeholder="Email" required>
+            <label for="telefone" class="formulario__label">Telefone</label>
+            <input type="tel" class="input__padrao" placeholder="Telefone de contato" required>
+            <label for="mensagem" class="formulario__label">Deixe uma mensagem</label>
+            <input type="text" class="input__padrao input__mensagem" placeholder="Deixe uma mensagem" required>
+            <button class="formulario__botao" aria-label="Botão para enviar formulário">Enviar</button>
+        </form>
+    </section>
     <footer>
         <p class="copyright">© Copyright Rubens Medeiros - 2022</p>
     </footer>
