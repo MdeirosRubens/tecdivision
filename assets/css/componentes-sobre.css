@@ -39,7 +39,7 @@
     }
 
     .menu__abrir i::before{
-        width: 50px;
+        width: 3.125rem;
     }
 
     .titulo{
@@ -109,6 +109,6 @@
     }
 
     footer{
-        height: 70px;
+        height: 4.375rem;
     }
 }

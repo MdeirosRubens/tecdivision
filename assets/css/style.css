@@ -145,7 +145,7 @@ body{
     }
 
     .menu__abrir i::before{
-        width: 50px;
+        width: 3.125rem;
     }
 
     .titulo{
@@ -166,11 +166,11 @@ body{
     }
 
     .main{
-        margin-top: 200px;
+        margin-top: 12.5rem;
     }
 
     .main__sobre{
-        margin: 20px;
+        margin: 1.25rem;
         display: flex;
     }
 
@@ -206,12 +206,12 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 20px;
+        height: 1.25rem;
     }
    
     .menu-lateral{
         width: 40vw;
-        margin-top: 50px;
+        margin-top: 3.125rem;
         height: 100vh;
     }
 
@@ -220,24 +220,24 @@ body{
     }
 
     .main{
-        margin-top: 50px;
+        margin-top: 3.125rem;
         display: flex;
 
     }
 
     .apresent{
-        font-size: 50px;
+        font-size: 3.125rem;
     }
 
     .orientacao{
-        font-size: 50px;
+        font-size: 3.125rem;
     }
 
     .logo_body{
         width: 20%;
     }
     footer{
-        height: 70px;
+        height: 4.375rem;
     }
     
 }

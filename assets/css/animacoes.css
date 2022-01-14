@@ -83,7 +83,7 @@
 
 /*animação do menu lateral*/
 
-a:after{
+.menu__opcoes:after{
   content: "";
   position: absolute;
   background-color: #f3f3f3;
@@ -94,9 +94,9 @@ a:after{
   transition: 0.3s;
 }
 
-a:hover:after{
+.menu__opcoes:hover:after{
   width: 70%;
 }
-a:hover{
+.menu__opcoes:hover{
   font-weight: bold;
 }
